@@ -5,7 +5,9 @@ let user = {
   years: 24,
 };
 
-// 아래에 코드를 작성해주세요 ~
+
+let {name:Name, years:age, isAdmin}=user;
+if(isAdmin===undefined){isAdmin=false;}
 
 alert(Name); // "지환"
 alert(age); // 24

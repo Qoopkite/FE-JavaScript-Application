@@ -8,3 +8,7 @@ let lionMoney = {
   재혁: 2800,
   동재: 50000,
 };
+
+for(let i in lionMoney){
+  sum=sum+lionMoney[i];
+}
